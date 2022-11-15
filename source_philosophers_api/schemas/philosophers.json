@@ -1,0 +1,48 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "phil_id": {
+      "type": "string",
+      "default": "f8932c72-791b-467f-9c12-687ca95a3d9c",
+      "examples": ["f8932c72-791b-467f-9c12-687ca95a3d9c"],
+      "format": "uuid"
+    },
+    "name": {
+      "type": "string",
+      "default": "aristotle",
+      "examples": ["aristotle"]
+    },
+    "age": {
+      "type": "integer",
+      "default": 62,
+      "examples": [62]
+    },
+    "city": {
+      "type": "string",
+      "default": "Euboea",
+      "examples": ["Euboea"]
+    },
+    "date_of_birth": {
+      "type": "string",
+      "default": "2015-01-22",
+      "examples": ["2015-01-22"],
+      "format": "date"
+    },
+    "date_modified": {
+      "type": "string",
+      "default": "2015-01-22",
+      "examples": ["2015-01-22"],
+      "format": "date"
+    }
+  },
+  "required": [
+    "phil_id",
+    "name",
+    "age",
+    "city",
+    "date_of_birth",
+    "date_modified"
+  ],
+  "additionalProperties": false
+}
