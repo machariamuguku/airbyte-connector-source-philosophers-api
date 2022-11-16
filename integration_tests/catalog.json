@@ -17,7 +17,11 @@
             "default": "aristotle",
             "examples": ["aristotle"]
           },
-          "age": { "type": "integer", "default": 62, "examples": [62] },
+          "age": {
+            "type": "integer",
+            "default": 62,
+            "examples": [62]
+          },
           "city": {
             "type": "string",
             "default": "Euboea",
